@@ -88,7 +88,7 @@ export default class NotFound extends React.Component {
       <ThemeProvider theme={this.state.theme}>
         <Wrapper>
           <Img404 src={img404} />
-          <Title>Page Not Found</Title>
+          <Title>Page not found</Title>
           <Detail>Your page was not found.</Detail>
           <Link to="/">
             <BackButton>Back to Home</BackButton>
